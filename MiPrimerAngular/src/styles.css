@@ -1,0 +1,25 @@
+:root {
+  --bg: #f4f5fb;
+  --surface: #ffffff;
+  --ink: #1a1a2e;
+  --muted: #6b7280;
+  --brand: #dc2626;
+  --brand-ink: #ffffff;
+  --border: #e5e7eb;
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
